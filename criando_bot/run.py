@@ -1,4 +1,5 @@
 import discord     #vamos começar fazendo as importações do bot
+from token import Token #importtando o arquivo "token.py"
 from discord.ext import commands
 
 
@@ -10,5 +11,5 @@ client = commands.Bot(command_prefix=Prefix)
 async def on_ready():
    print('tudo pronto')
 
-#define o token deu seu bot
+#para esconder seu token criei um arquivo "token.py"
 client.run('Token')
