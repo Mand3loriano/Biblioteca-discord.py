@@ -1,1 +1,13 @@
-ola mundo teste
+olá mundo, bom para ligar o seu bot primeiro temos que preparar seu desktop. Instale o VsCode ou uma API, para executar
+os comandos em discord.py.Se o seu computador for fraco sugiro que instala APIs como Sublime txt etc.E preciso instalar 
+o python mais recente em "python.org" site ofc. A versão mais recente do python,
+hoje dia 8 de abril de 2021 é, 3.9.4. Depois de tudo isso temos que instalar a biblioteca do discord.py.
+Para fazer isso abra o CMD,(caso não saiba aperte a tecla Windows + R), ai irá abrir uma tela chamada EXECUTOR, dai digite
+cmd dentro do executor e pronto.Depois de ter aberto o CMD digite pip install discord.py, para instalar o discord.py.
+Caso de error, e porque ou você escreveu errado ou não instalou o PIP.Para instalar o PIP vai em python.org, e click
+em dowload python, mas não instale o python, selecione a opção custom instalattion e assinale o PIP.Ok, agora abra o CMD
+novamente e digite pip show install discord.py,se o cmd mostrar algumaa informações sobre a biblioteca, discord.py
+siguinifica que tudo foi instalado corretamente agora pode fechar o CMD.Depois de todas essas complicações abra sua API,mas 
+antes crie uma pasta para seu bot(lembrando pasta de bot não pode ter número espaço ou caracter especial).Agora com a pasta criada 
+e a API aberta, abra a pasta em sua API, geralmente tem um opção para abrir pasta na API que se chama 'open folder', depois crie um arquivo chamado main.py.
+Depois pode começar a efetuar os comandos.
