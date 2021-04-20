@@ -1,0 +1,8 @@
+Para fazer seu primeiro comando, eu deixei um exemplo em 'main.py' nesta pasta. Bom primeiro deixei notas no codigo para vocês lerem.Para definirmos que aquele
+codigo é um comando e não um evento. Definimos o `@client.command()`. Agora para definir um evento, igual a que fiz no on_ready. Precisa coloca `@client.event`. Ok, 
+definimos que aquele código e um comando, agora e preciso definir o comando. Para definir o comando que será usado pelo CTX ou o membro, e preciso usa a função
+`async def COMANDO(arg):`. Em vez de colocar ola como coloquei ali no arquivo de exemplo, pode colocar outra coisa. Para definir a mensagem temos que criar
+uma várivel, que se chama 'msg', assim como coloqueo lá. A variável ser criada e preciso botar um igual ou as vezes dois mas só vamos usar um, por que sim ok huahauhuah.
+Um exemplo de variável e como deixei lá no código. Depois de criar a variavel escreva o comando que você queira que apareça quando o membro digitar o comando `/ola`. Agora
+vamos usar a fução "await", que server para o bot ler a variável, e mandar no chat do ctx ou seja do membro. Ali em 'ctx.send', vc pode botar 'ctx.author.send',para mandar
+uma mensagem na DM da pessoa.
