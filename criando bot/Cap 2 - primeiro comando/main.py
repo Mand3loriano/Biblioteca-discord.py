@@ -16,5 +16,5 @@ async def ola(ctx):  #aqui definimos o comando quando digitarmos /ola o bot vai 
             #colocamos para o bot mandar essa msg no chat do ctx ou membro 
     
     
-Token = 'Token_do_seu_bot'
+Token = 'Token_do_seu_bot' 
 client.run(Token)
