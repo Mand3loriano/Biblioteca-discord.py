@@ -11,5 +11,5 @@ client = commands.Bot(command_prefix=Prefix)
 async def on_ready():
    print('tudo pronto')
 
-#para esconder seu token criei um arquivo "token.py"
-client.run('Token')
+#coloque o token do seu bot
+client.run('Token') 
