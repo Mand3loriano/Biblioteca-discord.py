@@ -1,6 +1,4 @@
-Bom definimos o comando como visto no Cap 2...Colocamos o nome 'ban' e 'kick',as args são: ctx
-(executor do comando), membro(membro mencionado) e por fim Motivo=None, como ja diz o motivo.Dai
-definimos o primeiro IF, para as perms do comando. Só quem tem perm de, ban_member, poder banir membros, ou
-efetuar o comando ban, e assim para o comando de kick. Depois definimos o canal onde a msg de 
-ban será enviada, se quiser trocar para ctx, pode trocar. Depois usamos await kick.member(), para 
-expulsar o membro, e assim para ban também.
+Bom definimos o comando como visto no Cap 2...Colocamos o nome 'ban' e 'kick', as args são: ctx(executor do comando), membro(membro mencionado) 
+e por fim Motivo=None, como ja diz o nome, e o motivo da punição(e o "None" diz que está vazio).Dai definimos o primeiro IF, para as perms do comando. 
+Só quem tem perm de, ban_member, pode banir membros, ou efetuar o comando ban, e assim para o comando de kick. Depois definimos o canal onde a msg de ban 
+será enviada, se quiser trocar para ctx, pode trocar. Depois usamos await kick.member(), para expulsar o membro, e assim para ban também.
