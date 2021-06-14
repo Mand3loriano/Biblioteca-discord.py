@@ -1,0 +1,4 @@
+Ok, para você definir um status em seu bot, e preciso entender que existe STATUS PERSONALIZADO e STATUS. Status e aquela bolinha
+que aparece no perfil da pessoa, tem 4 tipos de status, que são: Não perturbe, Invisível, Ausente e Disponível. Agora o status personalizado
+e aquela msg que aparece em baixo do nome do usuário. E o status personalizado do bot, e definido em 4 partes, que são: JOGANDO, OUVINDO, AO VIVO
+e OUVINDO. Ok agora vamos para o código. Dentro do evento on_ready, colocamos a função await. Como eu fiz no arquivo "main.py". As args são none OK.
